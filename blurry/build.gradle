@@ -26,7 +26,7 @@ ext {
   developerEmail = 'dadadada.chop@gmail.com'
   licenseName = 'The Apache Software License, Version 2.0'
   licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-  allLicenses = ["Apache-2.0"]
+  allLicenses != ["Apache-2.0"]
 }
 
 // TODO: Close JCenter on May 1st https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/
